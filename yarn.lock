@@ -1632,6 +1632,11 @@
     "@types/yargs" "^16.0.0"
     "chalk" "^4.0.0"
 
+"@lukeed/csprng@^1.0.0":
+  "integrity" "sha512-uSvJdwQU5nK+Vdf6zxcWAY2A8r7uqe+gePwLWzJ+fsQehq18pc0I2hJKwypZ2aLM90+Er9u1xn4iLJPZ+xlL4g=="
+  "resolved" "https://registry.npmjs.org/@lukeed/csprng/-/csprng-1.0.1.tgz"
+  "version" "1.0.1"
+
 "@mui/base@5.0.0-alpha.73":
   "integrity" "sha512-TEUCIIEAWrngAqpIa+dY3nofGSNj70LC3KC9WcCzyXPK3M4AG2GNi7ndd/g/0DtC55kbxrudzlV8TG3vrB2Vjw=="
   "resolved" "https://registry.npmjs.org/@mui/base/-/base-5.0.0-alpha.73.tgz"
@@ -11605,6 +11610,13 @@
   "integrity" "sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c="
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
+
+"uid@^2.0.0":
+  "integrity" "sha512-hFw+zKBA1szYdbZWj6FjTxZzJnKNf+wTDcsxlJaXS64MCy9LQEmJUVieGYHCKek/WRyFIcs0cEXtGIQmfvHe2A=="
+  "resolved" "https://registry.npmjs.org/uid/-/uid-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "@lukeed/csprng" "^1.0.0"
 
 "uncontrollable@^7.2.1":
   "integrity" "sha512-svtcfoTADIB0nT9nltgjujTi7BzVmwjZClOmskKu/E8FW9BXzg9os8OLr4f8Dlnk0rYWJIWr4wv9eKUXiQvQwQ=="
